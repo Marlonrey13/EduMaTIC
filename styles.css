@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f4ff;
+    text-align: justify;
+}
+
+header {
+    background-color: #3199de;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header img {
+    margin-bottom: 8px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+}
+
+nav ul li a {
+    border-radius: 5px;
+    border: 1px solid #555;
+    padding: .5rem 1rem;
+    color: #3199de;
+    background-color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    padding: .6rem 1.1rem;
+}
+
+.hero img {
+    width: 45%;
+}
+
+.hero {
+    background-color: #afdcfa;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #424040;
+    width: 55%;
+}
+
+.hero p a {
+    color: blue;
+    text-decoration: none;
+}
+
+.hero span {
+    margin-top: 10px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.sub p {
+    width: 55%;
+    font-size: 1.2rem;
+}
+
+article {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+article p {
+    color: #555;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (width <= 1024px) {
+    .hero img {
+        width: 75%;
+    }
+
+    .hero p {
+        width: 85%;
+        font-size: 1.1rem;
+    }
+
+    .sub p {
+        width: 65%;
+        font-size: 1.1rem;
+    }
+}
+
+@media (width <= 480px) {
+    nav ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li a {
+        width: 60%;
+        padding: 3px;
+        margin-bottom: 4px;
+    }
+
+    nav ul li a:hover {
+        padding: 4px;
+    }
+
+    .hero img {
+        width: 95%;
+    }
+
+    .hero p {
+        width: 95%;
+        font-size: 1rem;
+    }
+
+    .sub p {
+        width: 75%;
+        font-size: 1rem;
+    }
+}
