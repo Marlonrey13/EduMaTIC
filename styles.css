@@ -137,6 +137,10 @@ footer {
         width: 85%;
         font-size: 1.1rem;
     }
+
+    .hero ul {
+        width: 80%;
+    }
 }
 
 @media (width <= 480px) {
@@ -163,5 +167,9 @@ footer {
     .hero p {
         width: 95%;
         font-size: 1rem;
+    }
+
+    .hero ul li {
+        font-size: 1.1rem;
     }
 }
